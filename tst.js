@@ -3,7 +3,8 @@
 fetch("https://www.linkedin.com/oauth/v2/accessToken", {
   body: "grant_type=client_credentials&client_id=787dp3bafex2kk&client_secret=17m5MJUUCEai1vRp",
   headers: {
-    "Content-Type": "application/x-www-form-urlencoded"
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Access-Control-Allow-Origin": "*"
   },
   method: "POST"
 }).then(response => response.json())
