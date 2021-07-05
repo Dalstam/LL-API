@@ -11,10 +11,9 @@ fetch("https://www.linkedin.com/oauth/v2/accessToken", {
 .then(data => Req2(data));
 
 const Req2 = (data) => {
-   let  url =   'https://api.linkedin.com/v2/learningActivityReports?q=criteria&start=1&count=1&startedAt=1552652108993&timeOffset.duration=2&aggregationCriteria.primary=INDIVIDUAL&timeOffset.unit=WEEK&sortBy.engagementMetricType=LOGINS' ;
     console.log(data);
     console.log(data.access_token);
-    fetch(url, {
+    fetch("https://api.linkedin.co/v2/learningActivityReports?aggregationCriteria.secondary=CONTENT&q=criteria&count=1&contentSource=INTERNAL&startedAt=1562699900247&timeOffset.unit=DAY&timeOffset.duration=7&aggregationCriteria.primary=INDIVIDUAL&sortBy.engagementMetricType=MARKED_AS_DONE", {
         headers: {
           Authorization:  `Bearer ${data.access_token}`
         }
