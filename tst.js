@@ -15,7 +15,7 @@ const Req2 = (data) => {
     console.log(data);
     console.log(data.access_token);
     fetch("https://api.linkedin.co/v2/learningActivityReports?aggregationCriteria.secondary=CONTENT&q=criteria&count=1&contentSource=INTERNAL&startedAt=1562699900247&timeOffset.unit=DAY&timeOffset.duration=7&aggregationCriteria.primary=INDIVIDUAL&sortBy.engagementMetricType=MARKED_AS_DONE", {
-        headers: {
+        headers: {"Access-Control-Allow-Origin": "*",
           Authorization:  `Bearer ${data.access_token}`
         }
       }).then(response => response.json())
