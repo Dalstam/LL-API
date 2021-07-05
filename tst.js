@@ -5,7 +5,6 @@ fetch("https://www.linkedin.com/oauth/v2/accessToken", {
   headers: {
     "Content-Type": "application/x-www-form-urlencoded"
   },
-  method: "POST",
   mode: 'no-cors' // 'cors' by default
 }).then(response => response.json())
 // .then(data => console.log(data))
@@ -17,7 +16,6 @@ const Req2 = (data) => {
     fetch("https://api.linkedin.co/v2/learningActivityReports?aggregationCriteria.secondary=CONTENT&q=criteria&count=1&contentSource=INTERNAL&startedAt=1562699900247&timeOffset.unit=DAY&timeOffset.duration=7&aggregationCriteria.primary=INDIVIDUAL&sortBy.engagementMetricType=MARKED_AS_DONE", {
         headers: {
           Authorization:  `Bearer ${data.access_token}`
-        
         },
         mode: 'no-cors' // 'cors' by default
       }).then(response => response.json())
