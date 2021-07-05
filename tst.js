@@ -5,7 +5,8 @@ fetch("https://www.linkedin.com/oauth/v2/accessToken", {
   headers: {
     "Content-Type": "application/x-www-form-urlencoded"
   },
-  method: "POST"
+  method: "POST",
+  mode: 'no-cors' // 'cors' by default
 }).then(response => response.json())
 // .then(data => console.log(data))
 .then(data => Req2(data));
