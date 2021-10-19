@@ -6,21 +6,21 @@
         <div class="pull-left  hidden-xs hidden-sm">
         <ul class="desktop-nav">
             <li>
-            <a href="index.html" class="no-link">
-                <img src="/images/icons/TringTring_logo_white.svg" alt="Tring Tring" width="50" height="43" />
-            </a>
+             <NuxtLink to="/">
+                <img src="~/assets/images/icons/TringTring_logo_white.svg" alt="Tring Tring" width="50" height="43" />
+            </NuxtLink>
             </li>
-            <li {{#is basename "index"}} class="active" {{/is}}>
-            <a href="index.html">Home</a>
+            <li>
+                 <NuxtLink to="/">Home</NuxtLink>
             </li>
-            <li {{#is basename "over-tringtring"}} class="active" {{/is}}>
-            <a href="over-tringtring.html">Over TringTring</a>
+            <li>
+                 <NuxtLink to="/over-tringtring">Over TringTring</NuxtLink>
             </li>
-            <li {{#is basename "leveranciers"}} class="active" {{/is}}>
-            <a href="leveranciers.html">Voor Leveranciers</a>
+            <li>
+                 <NuxtLink to="/leveranciers">Voor Leveranciers</NuxtLink>
             </li>
-            <li {{#is basename "word-tringer"}} class="active" {{/is}}>
-            <a href="word-tringer.html">Word Tringer</a>
+            <li>
+                 <NuxtLink to="/word-tringer">Word Tringer</NuxtLink>
             </li>
         </ul>
         </div>
@@ -36,9 +36,9 @@
         <div class="pull-left visible-xs visible-sm">
         <ul class="desktop-nav">
             <li>
-            <a href="index.html" class="no-link mobile-menu-logo">
-                <img src="./images/icons/TringTring_logo_white.svg" alt="Tring Tring" width="44" height="38" />
-            </a>
+            <NuxtLink to="index.html" class="no-link mobile-menu-logo">
+                <img src="~/assets/images/icons/TringTring_logo_white.svg" alt="Tring Tring" width="44" height="38" />
+            </NuxtLink>
             </li>
         </ul>
         </div>
@@ -55,18 +55,18 @@
     <div id="slide-trans-layer"></div>
     <div id="slidemenu">
         <ul class="mobile-nav">
-        <li {{#is basename "index"}} class="active" {{/is}}>
-            <a href="index.html">Home</a>
-        </li>
-        <li {{#is basename "over-tringtring"}} class="active" {{/is}}>
-            <a href="over-tringtring.html">Over TringTring</a>
-        </li>
-        <li {{#is basename "leveranciers"}} class="active" {{/is}}>
-            <a href="leveranciers.html">Voor Leveranciers</a>
-        </li>
-        <li {{#is basename "word-tringer"}} class="active" {{/is}}>
-            <a href="word-tringer.html">Word Tringer</a>
-        </li>
+            <li>
+                 <NuxtLink to="/">Home</NuxtLink>
+            </li>
+            <li>
+                 <NuxtLink to="/over-tringtring">Over TringTring</NuxtLink>
+            </li>
+            <li>
+                 <NuxtLink to="/leveranciers">Voor Leveranciers</NuxtLink>
+            </li>
+            <li>
+                 <NuxtLink to="/word-tringer">Word Tringer</NuxtLink>
+            </li>
         <li>
             &nbsp;
         </li>
@@ -80,13 +80,13 @@
     
         <div class="social pull-left">
         <a class="no-link" href="https://www.facebook.com/pages/TringTring/796606900374195" target="_blank">
-            <img src="./images/icons/contact_facebook.svg" alt="facebook" width="30" height="30" />
+            <img src="~/assets/images/icons/contact_facebook.svg" alt="facebook" width="30" height="30" />
         </a>
         <a class="no-link" href="https://twitter.com/TringTring" target="_blank">
-            <img src="./images/icons/contact_twitter.svg" alt="twitter" width="30" height="30" />
+            <img src="~/assets/images/icons/contact_twitter.svg" alt="twitter" width="30" height="30" />
         </a>
         <a  class="no-link" href="https://www.instagram.com/tringtring/" target="_blank">
-            <img src="./images/icons/contact_instagram.svg" alt="instagram" width="30" height="30"/>
+            <img src="~/assets/images/icons/contact_instagram.svg" alt="instagram" width="30" height="30"/>
         </a>
         </div>
     </div>
