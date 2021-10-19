@@ -1,0 +1,15 @@
+
+.logisticGrid{
+    display: grid;
+    grid-template: repeat(2,1fr)/repeat(4,1fr);
+    justify-items: stretch;
+}
+
+.logistCol{
+
+}
+.imgLogist{
+    width: 100%;
+}
+
+

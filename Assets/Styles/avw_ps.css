@@ -1,0 +1,98 @@
+/* Dit is het style sheet voor de algemene voorwaarden en het privacy statement. */
+
+@font-face {
+    font-family: 'VolkswagenTS-DemiBold';
+    src: url('../fonts/2DA5EA_0_0.eot');
+    src: url('../fonts/2DA5EA_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2DA5EA_0_0.woff2') format('woff2'), url('../fonts/2DA5EA_0_0.woff') format('woff'), url('../fonts/2DA5EA_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VolkswagenTS-Light';
+    src: url('../fonts/2DA5EA_1_0.eot');
+    src: url('../fonts/2DA5EA_1_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2DA5EA_1_0.woff2') format('woff2'), url('../fonts/2DA5EA_1_0.woff') format('woff'), url('../fonts/2DA5EA_1_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VolkswagenTS-Medium';
+    src: url(../fonts/Volkswagen-Medium.otf);
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'VolkswagenTS-Light';
+    color: #57565b;
+}
+
+.avwps {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'VolkswagenTS-DemiBold';
+}
+
+h2 {
+    font-family: 'VolkswagenTS-Medium';
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    font-style: oblique;
+    padding: 0;
+    margin: 1em 0 1em 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+ol li {
+    margin-bottom: 0;
+}
+dd{
+	margin: 0 0 1em 0;
+}
+
+dd ol{
+	margin-top: 0;
+}
+.olIndent,
+.ulIndent {
+    margin-left: 2em;
+}
+
+.ulDisc {
+    list-style: disc;
+}
+
+.liNoMargin {
+    margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .avwps {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    h1{
+        text-align: center;
+    }
+}
