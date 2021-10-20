@@ -2203,7 +2203,7 @@ td.visible-print {
   .bourgondisch,
   .stach,
   .frankssmokehouse {
-    background: url('../images/logo_sprite_desktop.png') no-repeat;
+    background: url('~/assets/images/logo_sprite_desktop.png') no-repeat;
   }
   .bilder-en-de-clercq {
     background-position: 0 0;
@@ -2441,7 +2441,7 @@ td.visible-print {
   .frankssmokehouse,
   .bourgondisch,
   .stach {
-    background: url('../images/logo_sprite_mobile.png') no-repeat;
+    /* background: url('~/assets/images/logo_sprite_mobile.png') no-repeat; */
   }
   .bilder-en-de-clercq {
     background-position: 0 0;
@@ -3446,7 +3446,7 @@ p.tiny a:visited {
   right: 15px;
   width: 14px;
   height: 14px;
-  background: url('../images/cross.gif') no-repeat center;
+  background: url('~/assets/images/cross.gif') no-repeat center;
   cursor: pointer;
 }
 .tringer-colors {
@@ -4025,7 +4025,7 @@ h1.overTringtring {
   background-position: center;
   height: 28px;
   width: 23px;
-  background-image: url("../images/icons/chevron-left.png");
+  background-image: url("~/assets/images/icons/chevron_left.svg");
   position: absolute;
   left: 25px;
   -webkit-transform: translateY(-50%);
@@ -4092,13 +4092,13 @@ h1.overTringtring {
 }
 @font-face {
   font-family: 'VolkswagenTS-DemiBold';
-  src: url('../fonts/2DA5EA_0_0.eot');
-  src: url('../fonts/2DA5EA_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2DA5EA_0_0.woff2') format('woff2'), url('../fonts/2DA5EA_0_0.woff') format('woff'), url('../fonts/2DA5EA_0_0.ttf') format('truetype');
+  src: url('~/assets/fonts/2DA5EA_0_0.eot');
+  src: url('~/assets/fonts/2DA5EA_0_0.eot?#iefix') format('embedded-opentype'), url('~/assets/fonts/2DA5EA_0_0.woff2') format('woff2'), url('~/assets/fonts/2DA5EA_0_0.woff') format('woff'), url('~/assets/fonts/2DA5EA_0_0.ttf') format('truetype');
 }
 @font-face {
   font-family: 'VolkswagenTS-Light';
-  src: url('../fonts/2DA5EA_1_0.eot');
-  src: url('../fonts/2DA5EA_1_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2DA5EA_1_0.woff2') format('woff2'), url('../fonts/2DA5EA_1_0.woff') format('woff'), url('../fonts/2DA5EA_1_0.ttf') format('truetype');
+  src: url('~/assets/fonts/2DA5EA_1_0.eot');
+  src: url('~/assets/fonts/2DA5EA_1_0.eot?#iefix') format('embedded-opentype'), url('~/assets/fonts/2DA5EA_1_0.woff2') format('woff2'), url('~/assets/fonts/2DA5EA_1_0.woff') format('woff'), url('~/assets/fonts/2DA5EA_1_0.ttf') format('truetype');
 }
 .browsehappy {
   margin: 0.2em 0;
@@ -4411,16 +4411,16 @@ button {
   color: #004bff;
 }
 .bg-map {
-  background-image: url("../images/map.jpg");
+  background-image: url("~/assets/images/map.jpg");
 }
 .bg-tringer {
-  background-image: url("../images/tringtring tringer.jpg");
+  background-image: url("~/assets/images/tringtring tringer.jpg");
 }
 .bg-bike {
-  background-image: url("../images/tringtring bakfietsen.jpg");
+  background-image: url("~/assets/images/tringtring bakfietsen.jpg");
 }
 .bg-delbike {
-  background-image: url(../images/tringtring-aan-het-werk.jpg);
+  background-image: url(~/assets/images/tringtring-aan-het-werk.jpg);
   background-repeat: repeat-x;
   background-position: center center;
   background-size: auto 100%;
@@ -4442,10 +4442,10 @@ button {
   background-color: #003eee;
 }
 .bg-gradient-map {
-  background-image: url("../images/map_blue.jpg");
+  background-image: url("~/assets/images/map_blue.jpg");
 }
 .bg-dashboard {
-  background-image: url("../images/map_dashboard.jpg");
+  background-image: url("~/assets/images/map_dashboard.jpg");
   height: 100vh;
   margin: -140px 0;
   padding: 140px 0;
