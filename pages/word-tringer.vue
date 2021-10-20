@@ -40,7 +40,7 @@
 			Alle ritjes gaan via onze Tringers app. Je ziet meteen wat het ritje inhoudt en wat de vergoeding is. 
 			Accepteer je? Dan krijg je na afloop direct betaald. Veel fietsplezier!
 		</p>
-		<p>
+		
 			<div class="step">
 				<img src="~/assets/images/TringTring bezorg app stap1.jpg" alt=" TringTring bezorg app stap 1" width="190" height="363" />
 				<div class="number">1</div>
@@ -61,7 +61,7 @@
 				<p>Verdien
 					<br />meteen geld</p>
 			</div>
-		</p>
+		
 		<p>
 			<a class="btn btn-primary" href="aanmelden.html">Aanmelden</a>
 		</p>
