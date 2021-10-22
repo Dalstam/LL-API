@@ -1,6 +1,8 @@
+// eslint-disable-next-line vue/no-multiple-template-root
 <template>
   <div>
     <div class="logoGrid">
+    
         <div class="logoCol">
           <img
             class="imgLogo"
@@ -912,7 +914,7 @@
           />
         </div>
       </div>
-    </div>
+  
 
     <button id="moreBtn" @click="gridMore = true">Toon meer</button>
     <!--   <button id="lessBtn" @click="gridMore = false">Toon minder</button> -->
@@ -927,12 +929,10 @@ export default {
 }
 </script>
 
-<<<<<<< HEAD
 <style scoped>
 .logoGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(88 px, 1fr));
-  grid-gap: 1 px;
+grid-template-columns: repeat(auto-fit,minmax(88px,1fr));
   justify-content: space-evenly;
   grid-auto-flow: dense;
 }
@@ -946,26 +946,6 @@ export default {
   width: 80%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-=======
-<style>
-.logoGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(88px,1fr));
-    grid-gap: 1px;
-    justify-content: space-evenly;
-    grid-auto-flow: dense;
-}
-.logoGridhid{
-    display: none;
-}
-.logoCol{
-background-color: #ffffff  ;
-}
-.imgLogo{
-width: 80%;
--webkit-filter: grayscale(100%); 
-filter: grayscale(100%);
->>>>>>> 9996f72aba2587c2ded162d26706f5120e5e7a1e
 }
 #moreBtn {
   background-color: initial;
