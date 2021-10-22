@@ -44,5 +44,7 @@ export default {
 </script>
 
 <style>
+.col-1, .col-2, .col-3 {max-width:100%}
+.col-1 {margin-left: auto; margin-right: auto; width: 215px; align-self:center;}
 
 </style>
