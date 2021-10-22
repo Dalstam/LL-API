@@ -9,9 +9,9 @@
     </div>
 
     <div class="col-2">
-      <a href="index.html" class="no-link">
+      <NuxtLink to="/">
         <img src="~/assets/images/icons/TringTring_logo_white.svg"  alt="Tring Tring" width="74" height="64" />
-      </a>
+      </NuxtLink>
     </div>
 
     <div class="col-3 ">
