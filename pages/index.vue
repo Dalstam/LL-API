@@ -52,17 +52,11 @@
 <div class="bg-white ">
 	<br>
 	<div class="container containerNoPadding  ">
-		{{ logos }}
+		
+		<logos></logos>
 	</div>
-</div></div>
-
-
-
-
-
-
-
-
+</div>
+</div>
 
 </template>
 
