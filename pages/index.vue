@@ -53,7 +53,7 @@
 	<br>
 	<div class="container containerNoPadding  ">
 		
-		<!-- <logos></logos> -->
+		<logos></logos>
 	</div>
 </div>
 </div>
