@@ -2689,6 +2689,7 @@ td.visible-print {
   right: 0;
   z-index: 5;
   font-size: 18px;
+  padding-top: 0;
 }
 @media (max-width: 767px) {
   height: 45px;

@@ -97,3 +97,8 @@
 </div>
 </template>
 
+<style scoped>
+.nuxt-link-exact-active {
+    font-weight: bolder;
+    border-bottom: 5px solid #fff;}
+</style>
