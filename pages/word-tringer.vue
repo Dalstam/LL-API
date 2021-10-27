@@ -11,25 +11,7 @@
 		<p class="beginregel">Je bent onderdeel van een echt team en geen nummer</p>
 		<p class="beginregel">Bepaal zelf wat je wilt bezorgen ( bier, truffels, bloemen of kreeftjes )</p>
 		<p class="beginregel">Extreem flexibel. Je fietst wanneer jou het uitkomt. Overdag, middag of avond.</p>
-			<!-- <ul class="higlights">
-				<li>
-					<img class="svg" src="~/assets/images/icons/icon-euro.svg" alt="" width="40" height="40" />
-					<p>5 Euro per rit. Of méér.</p>
-				</li>
-				<li>
-					<img class="svg" src="~/assets/images/icons/icon-calendar.svg" alt="" width="40" height="40" />
-					<p>Bepaal zelf je tijden.</p>
-				</li>
-				<li>
-					<img class="svg" src="~/assets/images/icons/icon-speech.svg" alt="" width="40" height="40" />
-					<p>Geen baas.</p>
-				</li>
-				<li>
-					<img class="svg" src="~/assets/images/icons/icon-cycler.svg" alt="" width="40" height="40" />
-					<p>Gezond lijf. Fris hoofd.</p>
-				</li>
-			</ul> -->
-		</p>
+
 		<p>
 			<a class="btn btn-primary" href="aanmelden.html">Aanmelden</a>
 		</p>
@@ -122,19 +104,19 @@
 		<p>
 			<ul class="higlights">
 				<li>
-					<img src="~/assets/images/icons/icon-euro.svg" alt="" width="40" height="40" style="color:white;" />
+					<img class="svg" src="~/assets/images/icons/icon-euro.svg" alt="" width="40" height="40" />
 					<p>5 Euro per rit. Of méér.</p>
 				</li>
 				<li>
-					<img class="svg1" src="~/assets/images/icons/icon-calendar.svg" alt="" width="40" height="40" />
+					<img class="svg" src="~/assets/images/icons/icon-calendar.svg" alt="" width="40" height="40" />
 					<p>Bepaal zelf je tijden.</p>
 				</li>
 				<li>
-					<img class="svg1" src="~/assets/images/icons/icon-speech.svg" alt="" width="40" height="40" />
+					<img class="svg" src="~/assets/images/icons/icon-speech.svg" alt="" width="40" height="40" />
 					<p>Geen baas.</p>
 				</li>
 				<li>
-					<img class="svg1" src="~/assets/images/icons/icon-cycler.svg" alt="" width="40" height="40" />
+					<img class="svg" src="~/assets/images/icons/icon-cycler.svg" alt="" width="40" height="40" />
 					<p>Gezond lijf. Fris hoofd.</p>
 				</li>
 			</ul>

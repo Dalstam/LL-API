@@ -2694,7 +2694,7 @@ td.visible-print {
   padding-top: 0;
 }
 @media (max-width: 767px) {
-  height: 45px;
+  /* height: 45px; */
 }
 ul.desktop-nav {
   margin: 0;
@@ -3041,7 +3041,7 @@ a.btn-getapp:visited,
   }
 }
 @media (max-width: 767px) {
-  height: 253px;
+  /* height: 253px; */
   
   .container {
     padding-top: 75px;
