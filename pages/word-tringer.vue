@@ -2,13 +2,16 @@
 <div>
     <div class="bg-bike">
 	<div class="container wordTringerContainer ">
-		<h1 class="wordTringer  no-margin-bottom">Verdien geld op de bakfiets</h1>
-		<p>
+		<h1 class="wordTringer  no-margin-bottom">Fietsen bij het leukste fietsteam van Nederland</h1>
+		<!-- <p>
 			Bezorg prachtige producten aan de horeca.
 			<br>Op elektrische bakfietsen. In Amsterdam of Utrecht.
-		</p>
-		<p>
-			<ul class="higlights">
+		</p> -->
+		<p class="beginregel">Je fietst op de mooiste bakfietsen die er zijn</p>
+		<p class="beginregel">Je bent onderdeel van een echt team en geen nummer</p>
+		<p class="beginregel">Bepaal zelf wat je wilt bezorgen ( bier, truffels, bloemen of kreeftjes )</p>
+		<p class="beginregel">Extreem flexibel. Je fietst wanneer jou het uitkomt. Overdag, middag of avond.</p>
+			<!-- <ul class="higlights">
 				<li>
 					<img class="svg" src="~/assets/images/icons/icon-euro.svg" alt="" width="40" height="40" />
 					<p>5 Euro per rit. Of méér.</p>
@@ -25,7 +28,7 @@
 					<img class="svg" src="~/assets/images/icons/icon-cycler.svg" alt="" width="40" height="40" />
 					<p>Gezond lijf. Fris hoofd.</p>
 				</li>
-			</ul>
+			</ul> -->
 		</p>
 		<p>
 			<a class="btn btn-primary" href="aanmelden.html">Aanmelden</a>
@@ -119,19 +122,19 @@
 		<p>
 			<ul class="higlights">
 				<li>
-					<img class="svg" src="~/assets/images/icons/icon-euro.svg" alt="" width="40" height="40" />
+					<img src="~/assets/images/icons/icon-euro.svg" alt="" width="40" height="40" style="color:white;" />
 					<p>5 Euro per rit. Of méér.</p>
 				</li>
 				<li>
-					<img class="svg" src="~/assets/images/icons/icon-calendar.svg" alt="" width="40" height="40" />
+					<img class="svg1" src="~/assets/images/icons/icon-calendar.svg" alt="" width="40" height="40" />
 					<p>Bepaal zelf je tijden.</p>
 				</li>
 				<li>
-					<img class="svg" src="~/assets/images/icons/icon-speech.svg" alt="" width="40" height="40" />
+					<img class="svg1" src="~/assets/images/icons/icon-speech.svg" alt="" width="40" height="40" />
 					<p>Geen baas.</p>
 				</li>
 				<li>
-					<img class="svg" src="~/assets/images/icons/icon-cycler.svg" alt="" width="40" height="40" />
+					<img class="svg1" src="~/assets/images/icons/icon-cycler.svg" alt="" width="40" height="40" />
 					<p>Gezond lijf. Fris hoofd.</p>
 				</li>
 			</ul>
@@ -149,3 +152,7 @@
 <script>
 export default {}
 </script>
+
+<style>
+.beginregel {text-align:left;}
+</style>

@@ -1,3 +1,5 @@
+
+
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
 aside,
@@ -3481,8 +3483,8 @@ p.tiny a:visited {
   list-style-type: none;
   padding: 0;
 }
-.higlights svg {
-  fill: white;
+.higlights .svg {
+  fill: #fff;
   vertical-align: middle;
   height: 35px;
   width: 35px;
@@ -4591,4 +4593,6 @@ input[type=number]::-webkit-outer-spin-button {
   background-color: #118547 !important;
   color: #fff;
 }
+
+.higlights li {margin: 100px !important;}
 /*# sourceMappingURL=/styles/main.css.map */
