@@ -5,18 +5,3 @@
     <Footer></Footer>
   </main>
 </template>
-
-<script>
-export default {
-   head() {
-       return {
-           meta: [
-               {
-                
-               }
-           ]
-       }
-
-    }
-}
-</script>
