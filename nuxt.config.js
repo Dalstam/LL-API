@@ -11,13 +11,7 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: '000', name: 'description', content: "TringTring is hét antwoord op de autovrije binnenstad. Dat doen we op de fiets: zo maken we de stad een beetje mooier." },
-      { name: 'format-detection', content: 'telephone=no' },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@TringTring" },
-      { hid: '1', property: "og:title", content: "Het nieuwe bakfiets bezorgnetwerk met liefde voor horeca in Amsterdam en Utrecht" },
-      { hid: '2', property: "og:description", content: "Wij  dagelijks meer dan 350 restaurants en hotels in Amsterdam en Utrecht. Alleen op de de bakfiets. On-demand. 100% groen. 7 dagen per week." },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
