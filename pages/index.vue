@@ -77,6 +77,10 @@ export default {}
 	
 h3 {
 	text-decoration: underline;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
+
+
 
 </style>
