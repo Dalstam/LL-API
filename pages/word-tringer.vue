@@ -101,7 +101,7 @@
 		<p>
 			Alle Tringers die meedoen met TringTring zijn sportief, hebben liefde voor horeca <br>en vinden duurzaamheid belangrijk. 
 		</p>
-		<p>
+	
 			<ul class="higlights">
 				<li>
 					<img class="svg" src="~/assets/images/icons/icon-euro.svg" alt="" width="40" height="40" />
@@ -120,7 +120,7 @@
 					<p>Gezond lijf. Fris hoofd.</p>
 				</li>
 			</ul>
-		</p>
+	
 		<p>
 			<a class="btn btn-primary" href="aanmelden.html">Aanmelden</a>
 		</p>
