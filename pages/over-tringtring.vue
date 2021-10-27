@@ -12,7 +12,7 @@
     </div>
     <!-- new text added -->
     <div class="bg-white">
-        <div class="container  containerNoPadding  container-narrow caret">
+        <div class="container  containerNoPadding  container-narrow caret link_mail">
 
             <p class="marginTop">
                 TringTring is gespecialiseerd in de bevoorrading van (horeca) ondernemingen in de binnenstad van grote steden. Als pioniers
@@ -45,3 +45,17 @@
 <script>
 export default {}
 </script>
+
+<style scoped>
+
+a {
+    text-decoration: none;
+}
+
+.link_mail a {
+    color: #171ab8;
+}
+
+
+
+</style>
