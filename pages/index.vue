@@ -43,6 +43,13 @@
 	</div>
 </div>
 
+<div class="bg-ligthgray bg-delbike">
+	<div class="container">
+			<h2 class="aanWerkHome">Gespecialiseerd in <br>horeca bevoorrading</h2>
+	</div>
+
+</div>
+
 <div class=" bg-ligthgray containerNoPadding">
 	<div class="container   container-narrow">
 		<h3 class="h3Home">TringTring bezorgt dagelijks bij:</h3>
@@ -58,8 +65,18 @@
 </div>
 </div>
 
+
+
 </template>
 
 <script>
 export default {}
 </script>
+
+<style scoped>
+	
+h3 {
+	text-decoration: underline;
+}
+
+</style>
