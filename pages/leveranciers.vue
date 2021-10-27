@@ -351,21 +351,7 @@ export default {
     return {
       title:
         'Voor leveranciers; TringTring - TringTring brengt jouw producten in de hele stad',
-      meta: [
-        {
-			  hid: '10000',
-          property: 'og:title',
-          content:
-            'Het nieuwe bakfiets bezorgnetwerk met liefde voor horeca in Amsterdam en Utrecht',
-        },
-        {
-			hid: '20000',
-          property: 'og:description',
-          content:
-            'Wij bevoorraden dagelijks meer dan 350 restaurants en hotels in Amsterdam en Utrecht. Alleen op de de bakfiets. On-demand. 100% groen. 7 dagen per week.',
-        },
-      ],
     }
-  },
+  }
 }
 </script>
