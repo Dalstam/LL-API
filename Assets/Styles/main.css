@@ -3475,7 +3475,7 @@ p.tiny a:visited {
 .bg-bike + .bg-white .caret:before {
   border-top-color: #0940E5;
 }
-.higlights {
+.highlights {
   text-align: left;
   display: inline-block;
   font-family: 'VolkswagenTS-DemiBold', Arial, sans-serif;
@@ -3483,7 +3483,7 @@ p.tiny a:visited {
   list-style-type: none;
   padding: 0;
 }
-.higlights .svg {
+.highlights .svg {
   fill: #fff;
   vertical-align: middle;
   height: 35px;
@@ -3491,7 +3491,7 @@ p.tiny a:visited {
   margin-right: 15px;
   display: inline;
 }
-.higlights p {
+.highlights p {
   color: white;
   display: inline-block;
   vertical-align: middle;

@@ -7,11 +7,20 @@
 			Bezorg prachtige producten aan de horeca.
 			<br>Op elektrische bakfietsen. In Amsterdam of Utrecht.
 		</p> -->
-		<p class="beginregel">Je fietst op de mooiste bakfietsen die er zijn</p>
-		<p class="beginregel">Je bent onderdeel van een echt team en geen nummer</p>
-		<p class="beginregel">Bepaal zelf wat je wilt bezorgen ( bier, truffels, bloemen of kreeftjes )</p>
-		<p class="beginregel">Extreem flexibel. Je fietst wanneer jou het uitkomt. Overdag, middag of avond.</p>
-
+		<ul class="highlights">
+			<li >
+				<p>Je fietst op de mooiste bakfietsen die er zijn</p>
+			</li> 
+			<li >
+				<p>Je bent onderdeel van een echt team en geen nummer</p>
+			</li>
+			<li >
+				<p>Bepaal zelf wat je wilt bezorgen ( bier, truffels, bloemen of kreeftjes )</p>
+			</li>
+		<li ><p>Extreem flexibel. Je fietst wanneer jou het uitkomt. Overdag, middag of avond.</p>
+		</li>
+		</ul>
+		
 		<p>
 			<a class="btn btn-primary" href="aanmelden.html">Aanmelden</a>
 		</p>
@@ -102,7 +111,7 @@
 			Alle Tringers die meedoen met TringTring zijn sportief, hebben liefde voor horeca <br>en vinden duurzaamheid belangrijk. 
 		</p>
 	
-			<ul class="higlights">
+			<ul class="highlights">
 				<li>
 					<img class="svg" src="~/assets/images/icons/icon-euro.svg" alt="" width="40" height="40" />
 					<p>5 Euro per rit. Of méér.</p>
@@ -136,5 +145,5 @@ export default {}
 </script>
 
 <style>
-.beginregel {text-align:left;}
+
 </style>
