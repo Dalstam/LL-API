@@ -82,6 +82,6 @@
 
 <style scoped>
 #frank {
-    background-image: url('~/assets/images/horeca/andaz-amsterdam.jpg'),
+    background-image: url('../assets/images/horeca/andaz-amsterdam.jpg'),
 }
 </style>

@@ -2,13 +2,10 @@
 <div>
     <div class="bg-bike">
 	<div class="container wordTringerContainer ">
-		<h1 class="wordTringer  no-margin-bottom">Fietsen bij het leukste fietsteam van Nederland</h1>
-		<!-- <p>
-			Bezorg prachtige producten aan de horeca.
-			<br>Op elektrische bakfietsen. In Amsterdam of Utrecht.
-		</p> -->
+		<h1 class="wordTringer margin-bottom-2">Fietsen bij het leukste fietsteam van Nederland</h1>
+		<p></p>
 		<ul class="highlights">
-			<li >
+			<li>
 				<p>Je fietst op de mooiste bakfietsen die er zijn</p>
 			</li> 
 			<li >
@@ -17,8 +14,9 @@
 			<li >
 				<p>Bepaal zelf wat je wilt bezorgen ( bier, truffels, bloemen of kreeftjes )</p>
 			</li>
-		<li ><p>Extreem flexibel. Je fietst wanneer jou het uitkomt. Overdag, middag of avond.</p>
-		</li>
+			<li >
+				<p>Extreem flexibel. Je fietst wanneer jou het uitkomt. Overdag, middag of avond.</p>
+			</li>
 		</ul>
 		
 		<p>
@@ -145,5 +143,11 @@ export default {}
 </script>
 
 <style>
+ul {
+	margin-top: 20px;
+}
 
+li {
+    margin-bottom: 1em;
+}
 </style>
