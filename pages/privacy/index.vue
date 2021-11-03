@@ -371,10 +371,33 @@
 
 <script>
 export default {
+  layout: 'blank'
 
 }
 </script>
 
 <style>
 
+main {
+    margin: 0 auto;
+    width: 77%;
+    text-align: left;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    font-style: italic;
+    font-weight: normal;
+}
+
+dl dd {
+    margin-left: 0;
+}
+
+dd {
+    margin-bottom: 1em;
+}
 </style>
