@@ -523,9 +523,8 @@
                 </section>
                 
                 <section>
-                <ul>
-                    <h2>Artikel 13. Algemeen</h2>
-                    
+                <h2>Artikel 13. Algemeen</h2>
+                <ul>     
                     <li>13.1 Afwijkingen van en aanvullingen op deze Algemene Voorwaarden zijn slechts geldig indien deze schriftelijk
                     tussen
                     jou en TringTring zijn overeengekomen.
@@ -602,6 +601,15 @@ export default {
 h3 {
     text-decoration: underline;
 }
+
+li {
+    list-style: none;
+    margin-bottom: 1em;
+    text-align: left;
+    margin-left: -40px;
+}
+
+li li {list-style-type: lower-alpha; margin-left: 0; margin-bottom:0;}
 
 
 </style>

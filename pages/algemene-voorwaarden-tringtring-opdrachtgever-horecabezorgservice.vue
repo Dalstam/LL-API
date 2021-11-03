@@ -71,9 +71,10 @@
     <section id="toepasselijkheid">
         <h2>Artikel 2. Toepasselijkheid</h2>
         <ul>
+        <li>
             Voor toepasselijkheid in deze Algemene Voorwaarden maakt het geen verschil of de hiervoor gedefinieerde
             termen in het enkelvoud of in het meervoud zijn gesteld dan wel in een bepaalde samenstelling worden
-            gebruikt.
+            gebruikt.</li>
         </ul>
     </section>
 
@@ -130,25 +131,24 @@
     </section>
 
     <section id="aanvraag">
-        <h2> 5. De Aanvraag &amp; Match</h2>
+        <h2> Artikel 5. De Aanvraag &amp; Match</h2>
         <ul>
             <li> 5.1 Een Aanvraag aan een Tringer kwalificeert als een uitnodiging tot het doen van een aanbod.
                 TringTring bepaalt naar eigen inzicht aan welke Tringer(s) deze Aanvraag wordt verzonden en TringTring
                 garandeert niet dat er na het verzenden van een Aanvraag daadwerkelijk een Match tot stand zal komen.
             </li>
             <li> Je dient ten minste de volgende informatie over de uit te voeren Opdracht te verstrekken:
-                <ol class="olIndent" type="a">
-                    <li>Bedrijfsnaam en locatie van de ontvanger;</li>
+            <ol class="olIndent" type="1">
+                <li>Bedrijfsnaam en locatie van de ontvanger;</li>
                     <li>Specificaties van de uit te voeren Opdracht, zoals gewicht, vorm en aantal te
                         verzenden/bezorgen
                         zaken;</li>
                     <li>Eventueel overige instructies en bijzonderheden met betrekking tot het ophalen van zaken en/of
                         bezorgtijden en -in geval van sleuteladressen- beveiligingscodes en locatie van voorraadkasten,
                         koelkasten en vriezers en verder alles wat van belang kan zijn voor een succesvolle uitvoering
-                        van
-                        de Opdracht.</li>
-                </ol>
-            </li>
+                        van de Opdracht.
+                </li>
+            </ol>
             <li> 5.4 Na het verstrekken van de in de vorige artikel genoemde informatie, geeft TringTring een
                 inschatting
                 van de vergoeding die jij aan TringTring voor de uit te voeren Opdracht dient te voldoen. Deze
@@ -468,6 +468,23 @@ export default {
 
 h3 {
     text-decoration: underline;
+}
+li  {
+    list-style: none;
+    margin-bottom: 1em;
+    text-align: left;
+    margin-left: -40px;
+}
+
+ol li { list-style-type: lower-alpha;
+        margin-left: 0;
+        margin-bottom: 0;
+
+}
+
+#garanties ol li li {
+    list-style-type: lower-roman;
+
 }
 
 
