@@ -7,11 +7,8 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <!-- Andaz - Frank's Smoke house-->
-          <div
-            id="frank"
-            class="item active"
-          >
-<!--            <img src="~/assets/images/horeca/andaz-amsterdam.jpg"/>-->
+          <div class="item active">
+            <img src="~/assets/images/horeca/andaz-amsterdam.jpg"  width=100% />
             <div class="shop-caption">
               <img
                 src="~/assets/images/icons/TringTring_logo_white.svg"
@@ -25,10 +22,8 @@
           </div>
 
           <!--Restaurant-Rijks - GROWx -->
-          <div
-            class="item"
-            style="background-image: url('images/horeca/Restaurant-Rijks.jpg')"
-          >
+          <div class="item">
+            <img src="~/assets/images/horeca/Restaurant-Rijks.jpg" width=100% />
             <div class="shop-caption">
               <img
                 src="~/assets/images/icons/TringTring_logo_white.svg"
@@ -41,6 +36,125 @@
             </div>
           </div>
 
+          <!-- mr Porter - Bourgondisch Lifestyle-->
+          <div class="item">
+            <img src="~/assets/images/horeca/Mr.-Porter-Amsterdam.jpg" width=100% />
+            <div class="shop-caption">
+              <img
+                src="~/assets/images/icons/TringTring_logo_white.svg"
+                alt="Tring Tring"
+                width="45"
+                height="38"
+              />
+              <h2>Bourgondisch Lifestyle</h2>
+              <p>bezorgt met TringTring</p>
+            </div>
+          </div>
+
+          <!-- GlouGlou - Bolomey-->
+          <div class="item">
+              <img src="~/assets/images/horeca/glouglou.jpg" width=100% />
+            <div class="shop-caption">
+              <img
+                src="~/assets/images/icons/TringTring_logo_white.svg"
+                alt="Tring Tring"
+                width="45"
+                height="38"
+              />
+              <h2>Bolomey wijnimport</h2>
+              <p>bezorgt met TringTring</p>
+            </div>
+          </div>
+
+          <!-- Nice to Meat -The-Harbour-Club-Kitchen -->
+          <div class="item">
+            <img src="~/assets/images/horeca/The-Harbour-Club-Kitchen.jpg" width=100% />
+            <div class="shop-caption">
+              <img
+                src="~/~/assets/images/icons/TringTring_logo_white.svg"
+                alt="Tring Tring"
+                width="45"
+                height="38"
+              />
+              <h2>Nice to Meat</h2>
+              <p>bezorgt met TringTring</p>
+            </div>
+          </div>
+
+          <!-- Teppanyaki-Hosokawa-Amsterdam -Jan van As -->
+          <div class="item">
+            <img src="~/assets/images/horeca/Teppanyaki-Hosokawa-Amsterdam.jpg" width=100% />
+            <div class="shop-caption">
+              <img
+                src="~/assets/images/icons/TringTring_logo_white.svg"
+                alt="Tring Tring"
+                width="45"
+                height="38"
+              />
+              <h2>Jan van As</h2>
+              <p>bezorgt met TringTring</p>
+            </div>
+          </div>
+
+          <!-- luitenant-cornelis - Jan van As-->
+          <div class="item">
+            <img src="~/assets/images/horeca/luitenant-cornelis.jpg" width=100% />
+            <div class="shop-caption">
+              <img
+                src="~/assets/images/icons/TringTring_logo_white.svg"
+                alt="Tring Tring"
+                width="45"
+                height="38"
+              />
+              <h2>Jan van As</h2>
+              <p>bezorgt met TringTring</p>
+            </div>
+          </div>
+
+          <!--stach-amsterdam - -->
+          <div class="item">
+            <img src="~/assets/images/horeca/stach-amsterdam.jpg" width=100% />
+            <div class="shop-caption">
+              <img
+                src="~/assets/images/icons/TringTring_logo_white.svg"
+                alt="Tring Tring"
+                width="45"
+                height="38"
+              />
+              <h2>Stach</h2>
+              <p>bezorgt met TringTring</p>
+            </div>
+          </div>
+
+          <!-- conservatorium - GROWx -->
+          <div class="item">
+            <img src="~/assets/images/horeca/conservatorium.jpg" width=100% />
+            <div class="shop-caption">
+              <img
+                src="~/assets/images/icons/TringTring_logo_white.svg"
+                alt="Tring Tring"
+                width="45"
+                height="38"
+              />
+              <h2>GROWx</h2>
+              <p>bezorgt met TringTring</p>
+            </div>
+          </div>
+
+          <!-- bak- Bolomey -->
+          <div class="item">
+            <img src="~/assets/images/horeca/bak.jpg" width=100% />
+            <div class="shop-caption">
+              <img
+                src="~/assets/images/icons/TringTring_logo_white.svg"
+                alt="Tring Tring"
+                width="45"
+                height="38"
+              />
+              <h2>Bolomey wijnimport</h2>
+              <p>bezorgt met TringTring</p>
+            </div>
+          </div>
         </div>
 
         <!-- Controls -->
