@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/gall", {data:[{}],fetch:{},mutations:void 0});
