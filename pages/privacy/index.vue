@@ -373,6 +373,7 @@
 export default {
   layout: 'blank'
 
+
 }
 </script>
 
