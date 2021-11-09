@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<header>
-			<a href="index.html" class="no-link mobile-menu-logo"><img src="../assets/images/icons/TringTring_logo_white.svg" alt="Tring Tring" width="50" height="43"></a>
+			<div href="index.html" class="no-link mobile-menu-logo"><img src="../assets/images/icons/TringTring_logo_white.svg" alt="Tring Tring" width="50" height="43"></div>
 		</header>
 					
 		<main class="target menuclosed">
@@ -24,13 +24,11 @@
 	</div>
 </template>
 
-
-
 <script>
 export default {
-  layout: 'blank'
+  layout: 'password-reset'
+} 
 
-}
 </script>
 
 <style scoped>
@@ -40,7 +38,8 @@ header {
 }
 
 a {
-	max-width: 50px;
+	width: 100px!important;
+	height: 100px!important;
 }
 
 img {
@@ -49,6 +48,12 @@ img {
 
 .container {
 	height: 600px;
+	padding: 0;
+}
+
+mobile-menu-logo img {
+    width: 100%;
+    max-width: 50px;
 }
 
 </style>
