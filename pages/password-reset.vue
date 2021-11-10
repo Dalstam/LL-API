@@ -29,6 +29,8 @@ export default {
   layout: 'password-reset'
 } 
 
+
+
 </script>
 
 <style scoped>
