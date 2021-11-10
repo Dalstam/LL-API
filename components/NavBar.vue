@@ -6,9 +6,9 @@
         <div class="pull-left  hidden-xs hidden-sm">
         <ul class="desktop-nav">
             <li>
-             <NuxtLink to="/">
+            <a href="/">
                 <img src="~/assets/images/icons/TringTring_logo_white.svg" alt="Tring Tring" width="50" height="43" />
-            </NuxtLink>
+        </a>
             </li>
             <li>
                  <NuxtLink to="/">Home</NuxtLink>
