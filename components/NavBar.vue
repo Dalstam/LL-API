@@ -98,6 +98,9 @@
 </template>
 
 <style scoped>
+ .nuxt-link-exact-active {
+    font-weight: bolder;
+}
 @media screen and (min-width: 600px) {
  .nuxt-link-exact-active {
     font-weight: bolder;

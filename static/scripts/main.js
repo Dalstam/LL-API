@@ -114,8 +114,13 @@ $("#shopForm").submit(function (event) {
 
 // ### Menu ### //
 // Sidemenu
+$('.mobile-nav').on('click', function () {
+      $("body").toggleClass("slide-active");
+});
+
 $(document).on("ready", function () {
-  console.log("1");
+
+
   $("#main-menu").after($('<div id="navbar-height-col"></div>'));
 
   const toggler = ".navbar-toggle";
@@ -123,7 +128,7 @@ $(document).on("ready", function () {
 
   // Swipe menu to the right
   $("body").swipe({
-    swipeRight (event, direction, distance, duration, fingerCount) {
+    swipeRight(event, direction, distance, duration, fingerCount) {
       if ($("body").hasClass("slide-active")) {
         $(toggler).on("click");
       }
@@ -136,22 +141,23 @@ $(document).on("ready", function () {
   // Click left of the menu
   $(document).on("click", "#slide-trans-layer", function () {
     openNav();
-   });
+  });
 
   // Click toggle icon/hamburger icon
   $(document).on("click", ".slide-active main", function () {
-       openNav();
+    openNav();
   });
 
-  
+
   $(document).on("click", ".hamburger-btn", function () {
     openNav();
-});
+  });
   function openNav(e) {
     $("body").toggleClass("slide-active");
 
     // Menu klap uit
     if ($("body").hasClass("slide-active")) {
+      localStorage.setItem("navOpen", true);
       // Get scroll position before giving the body overflow:hidden
       currentScrollPos = $(document).scrollTop() - $(".navbar").height();
 
@@ -221,7 +227,7 @@ $(function () {
 
 // Initialize validation
 const validator = $("#modalForm").validate({
-  submitHandler (form) {
+  submitHandler(form) {
     $("#content-form").hide();
 
     const data = {
@@ -232,11 +238,11 @@ const validator = $("#modalForm").validate({
     // Results
     postData(data, "#appmodal");
   },
-  errorPlacement (error, element) {
+  errorPlacement(error, element) {
     console.log(error);
     $("#modal-error b").html(error);
   },
-  success (error) {
+  success(error) {
     error.remove();
   }
 });
@@ -260,7 +266,7 @@ const steps = $(".pm-step").length;
 $form.promin({
   // Progress indicator stuffs
   events: {
-    change (step) {
+    change(step) {
       $("#steps .step").removeClass("previous"); // Remove from all steps
       $("#steps .step").removeClass("active"); // Remove from all steps
       $("#steps .step").off("click"); // Remove from all steps
