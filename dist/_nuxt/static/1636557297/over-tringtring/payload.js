@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/over-tringtring", {data:[{}],fetch:{},mutations:void 0});
