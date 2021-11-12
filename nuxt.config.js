@@ -3,6 +3,7 @@ export default {
   target: 'static',
   prefix: false,
 
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'TringTring - Het nieuwe bakfiets bezorgnetwerk.',
@@ -25,8 +26,8 @@ export default {
       { src: "scripts/jquery-validation/src/localization/messages_nl.js" },
       { src: "scripts/jquery.touchSwipe.min.js" },
       { src: "scripts/jquery.promin.js" },
-      { src: "scripts/main.js" },
-      { src: "scripts/aanmelden.js" }    ]
+      { src: "scripts/aanmelden.js" }
+         ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

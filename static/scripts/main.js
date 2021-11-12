@@ -113,9 +113,9 @@ $("#shopForm").submit(function (event) {
 });
 
 // ### Menu ### //
-
 // Sidemenu
 $(document).on("ready", function () {
+  console.log("1");
   $("#main-menu").after($('<div id="navbar-height-col"></div>'));
 
   const toggler = ".navbar-toggle";
@@ -125,7 +125,7 @@ $(document).on("ready", function () {
   $("body").swipe({
     swipeRight (event, direction, distance, duration, fingerCount) {
       if ($("body").hasClass("slide-active")) {
-        $(toggler).click();
+        $(toggler).on("click");
       }
     },
     threshold: 25,
@@ -135,19 +135,19 @@ $(document).on("ready", function () {
 
   // Click left of the menu
   $(document).on("click", "#slide-trans-layer", function () {
-    // $(toggler).click();
-    // alert();
-
-  });
+    openNav();
+   });
 
   // Click toggle icon/hamburger icon
   $(document).on("click", ".slide-active main", function () {
-      $(toggler).on("click");
-    // alert();
-
+       openNav();
   });
 
-  $("#main-menu").on("click", toggler, function (e) {
+  
+  $(document).on("click", ".hamburger-btn", function () {
+    openNav();
+});
+  function openNav(e) {
     $("body").toggleClass("slide-active");
 
     // Menu klap uit
@@ -176,7 +176,7 @@ $(document).on("ready", function () {
         $("html, body").scrollTop(currentScrollPos);
       }, 500);
     }
-  });
+  };
 });
 
 // ### Modal ###
@@ -211,7 +211,8 @@ $(function () {
 
     // Close menu if open
     if ($("body").hasClass("slide-active")) {
-      $(".navbar-toggle").click();
+      $(toggler).on("click");
+      alert();
     }
   });
 });

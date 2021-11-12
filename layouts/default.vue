@@ -1,9 +1,11 @@
 <template>
-  <main>
+<div>
     <NavBar></NavBar>
+      <main>
     <Nuxt />
+    </main>
     <Footer></Footer>
-  </main>
+  </div>
 </template>
 
 <script>
@@ -29,6 +31,10 @@ export default {
           content:
             'Wij bevoorraden dagelijks meer dan 350 restaurants en hotels in Amsterdam en Utrecht. Alleen op de de bakfiets. On-demand. 100% groen. 7 dagen per week.',
         },
+      ],
+
+      script: [
+  { src: "/scripts/main.js",  defer: true}
       ]
     }
   }
