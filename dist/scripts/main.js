@@ -1,3 +1,7 @@
+/* eslint-disable no-console */
+/* eslint-disable node/handle-callback-err */
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 // ### Layput stuff ### //
 'use strict';
 // Replace all SVG images with inline SVG
@@ -131,12 +135,16 @@ $(document).on("ready", function () {
 
   // Click left of the menu
   $(document).on("click", "#slide-trans-layer", function () {
-    $(toggler).click();
+    // $(toggler).click();
+    // alert();
+
   });
 
   // Click toggle icon/hamburger icon
   $(document).on("click", ".slide-active main", function () {
-    $(toggler).click();
+      $(toggler).on("click");
+    // alert();
+
   });
 
   $("#main-menu").on("click", toggler, function (e) {
@@ -248,28 +256,28 @@ const $form = $("#orderForm");
 const steps = $(".pm-step").length;
 
 // // Initialize Promin
-// $form.promin({
-//   // Progress indicator stuffs
-//   events: {
-//     change (step) {
-//       $("#steps .step").removeClass("previous"); // Remove from all steps
-//       $("#steps .step").removeClass("active"); // Remove from all steps
-//       $("#steps .step").off("click"); // Remove from all steps
-//       // Ad previous class to previous steps
-//       for (let i = 0; i < step; i++) {
-//         // Secure value of i, so it won't update within this step.
-//         (function (i) {
-//           $("#steps #step" + i)
-//             .addClass("previous")
-//             .on("click", function () {
-//               $form.promin("show", i);
-//             });
-//         })(i);
-//       }
-//       $("#steps #step" + step).addClass("active"); // Add to current step
-//     }
-//   }
-// });
+$form.promin({
+  // Progress indicator stuffs
+  events: {
+    change (step) {
+      $("#steps .step").removeClass("previous"); // Remove from all steps
+      $("#steps .step").removeClass("active"); // Remove from all steps
+      $("#steps .step").off("click"); // Remove from all steps
+      // Ad previous class to previous steps
+      for (let i = 0; i < step; i++) {
+        // Secure value of i, so it won't update within this step.
+        (function (i) {
+          $("#steps #step" + i)
+            .addClass("previous")
+            .on("click", function () {
+              $form.promin("show", i);
+            });
+        })(i);
+      }
+      $("#steps #step" + step).addClass("active"); // Add to current step
+    }
+  }
+});
 
 // Tell the button to go to the next step
 $(".navigation").on("click", function () {
@@ -305,7 +313,7 @@ $(".showhide").on("click", function () {
   const i = $("#infopanel");
   const f = $("#orderForm");
   const s = $(".info").find(".step");
-  if (i.css("display") == "block") {
+  if (i.css("display") === "block") {
     i.css("display", "none");
     f.css("display", "block");
     s.removeClass("active");
