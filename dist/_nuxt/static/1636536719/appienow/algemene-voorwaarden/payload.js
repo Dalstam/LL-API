@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/appienow/algemene-voorwaarden", {data:[{}],fetch:{},mutations:void 0});

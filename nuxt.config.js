@@ -22,7 +22,11 @@ export default {
       { src: "scripts/bootstrap/js/carousel.js" },
       { src: "scripts/placeholders/placeholders.min.js" },
       { src: "scripts/jquery-validation/dist/jquery.validate.min.js" },
-      { src: "scripts/jquery-validation/src/localization/messages_nl.js" }
+      { src: "scripts/jquery-validation/src/localization/messages_nl.js" },
+      { src: "scripts/main.js" },
+      { src: "scripts/aanmelden.js" },
+      { src: "scripts/jquery.promin.js" },
+      { src: "scripts/jquery.touchSwipe.min.js" }
     ]
   },
 
