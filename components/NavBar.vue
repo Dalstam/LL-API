@@ -98,7 +98,9 @@
 </template>
 
 <style scoped>
-.nuxt-link-exact-active {
+@media screen and (min-width: 600px) {
+ .nuxt-link-exact-active {
     font-weight: bolder;
     border-bottom: 5px solid #fff;}
+}
 </style>
