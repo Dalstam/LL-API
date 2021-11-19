@@ -8,7 +8,11 @@ export const state =()=>({
         toestel:''
     },
     uurInfo:{
-        uren:''},                                                                                                                                                                                
+        uren:''
+    },     
+    leeftijdInfo:{
+        leeftijd: ''
+    },                                                                                                                                                                           
 })
 
 export const mutations = {  
@@ -20,16 +24,25 @@ export const mutations = {
         state.persInfo.telefoon = value.telefoon;
         state.persInfo.toestel = value.toestel;
 },
-setuurInfo(state,value){
-    state.uurInfo.uren = value.uren;
-}}
+    setuurInfo(state,value){
+        state.uurInfo.uren = value.uren;
+},
+    setleeftijdInfo(state,value){
+        state.leeftijdInfo.leeftijd = value.leeftijd;
+},
 
-export const getters={
+}
+
+
+export const getters = {
     persgetter(state){
         return state.persInfo;
     },
     uurgetter(state){
         return state.uurInfo;
+    },
+    leeftijdgetter(state){
+        return state.leeftijdInfo;
     }
 }
 
