@@ -4,7 +4,7 @@ export const state =()=>({
         achternaam:'',
         email:'',
         plaats:'',
-        telefoonnummer:'',
+        telefoon:'',
         toestel:''
     }
 })
@@ -12,6 +12,11 @@ export const state =()=>({
 export const mutations = {
     setpersInfo(state,value){
         state.persInfo.voornaam = value.voornaam;
+        state.persInfo.achternaam = value.achternaam;
+        state.persInfo.email = value.email;
+        state.persInfo.plaats = value.plaats;
+        state.persInfo.telefoon = value.telefoon;
+        state.persInfo.toestel = value.toestel;
 }}
 
 export const getters={
@@ -19,3 +24,4 @@ export const getters={
         return state.persInfo;
     }
 }
+
