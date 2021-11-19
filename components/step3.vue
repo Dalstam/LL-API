@@ -12,7 +12,7 @@
 export default {
   data() {
     return {
-      leeftijd: '',
+      leeftijd: '',	
     }
   },
   methods: {
@@ -22,7 +22,7 @@ export default {
       })
 
 	//   Dit is voorbeeld dat de store werkt!!
-      console.log(this.$store.getters.leeftijdgetter);
+    console.log(this.$store.getters.leeftijdgetter);
     },
   },
 }

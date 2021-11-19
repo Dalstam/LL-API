@@ -12,7 +12,10 @@ export const state =()=>({
     },     
     leeftijdInfo:{
         leeftijd: ''
-    },                                                                                                                                                                           
+    }, 
+    OchtendJaofNee:{
+        Ochtend: ''
+    } ,                                                                                                                                                                        
 })
 
 export const mutations = {  
@@ -30,6 +33,9 @@ export const mutations = {
     setleeftijdInfo(state,value){
         state.leeftijdInfo.leeftijd = value.leeftijd;
 },
+    setochtendJaofNee(state,value){
+        state.OchtendJaofNee.Ochtend = value.Ochtend;
+    }
 
 }
 
@@ -43,6 +49,9 @@ export const getters = {
     },
     leeftijdgetter(state){
         return state.leeftijdInfo;
-    }
+    },
+    Ochtendgetter(state){
+        return state.OchtendJaofNee;
+    },
 }
 

@@ -1,10 +1,9 @@
 <template>
-
 	<div>
 		<!-- Register bar begin-->
         <div id="register-progress">
             <div class="container relative">
-                <a href="word-tringer.html" id="back" class="chevron-left"></a>
+                <a id="back" href="word-tringer.html" class="chevron-left"></a>
                 <div class="row">
                     <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
                         <div class="progress">
@@ -29,7 +28,7 @@
 		<step8 v-show="activeStep === 7"></step8>
 
         <!-- NEXT BUTTON -->
-		<button @click="activeStep++" v-show="activeStep <7" type="button" id="next" class="btn btn-block btn-primary">Verder ></button>
+		<button  v-show="activeStep <7" id="next" type="button"  class="btn btn-block btn-primary" @click="activeStep++">Verder ></button>
 
 	</div>
 
