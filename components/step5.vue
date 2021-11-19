@@ -3,14 +3,34 @@
 					<div class="pm-step">
 						<h1 class="form-title">Wil je ‘s avonds Tringen?</h1>
 						<label class="form-group text-left input-lg form-control">
-							<input type="radio" name="Avonden" value="Ja" data-rule-required="true">
+							<input type="radio" name="Avonden" value="Ja" data-rule-required="true" v-model="Avond" @change="avondJaofNee" >
 							<span>Ja, ik ben een avondmens</span>
 							<img class="vink" src="images/vink-blue.png" />
 						</label>
 						<label class="form-group text-left input-lg form-control">
-							<input type="radio" name="Avonden" value="Nee" data-rule-required="true">
+							<input type="radio" name="Avonden" value="Nee" data-rule-required="true" v-model="Avond" @change="avondJaofNee">
 							<span>Nee, liever niet</span>
 							<img class="vink" src="images/vink-blue.png" />
 						</label>
 					</div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      Avond: '',
+    }
+  },
+  methods: {
+    avondJaofNee() {
+      this.$store.commit('setavondJaofNee', {
+        Avond: this.Avond
+      })
+
+	//   Dit is voorbeeld dat de store werkt!!
+    console.log(this.$store.getters.Avondgetter);
+    },
+  },
+}
+</script>

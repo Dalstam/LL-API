@@ -15,7 +15,13 @@ export const state =()=>({
     }, 
     OchtendJaofNee:{
         Ochtend: ''
-    } ,                                                                                                                                                                        
+    }, 
+    AvondJaofNee:{
+        Avond: ''
+    }, 
+    welkeFiets:{
+        Fiets: ''
+    }                                                                                                                                                                      
 })
 
 export const mutations = {  
@@ -35,6 +41,12 @@ export const mutations = {
 },
     setochtendJaofNee(state,value){
         state.OchtendJaofNee.Ochtend = value.Ochtend;
+    },
+    setavondJaofNee(state,value){
+        state.AvondJaofNee.Avond = value.Avond;
+    },
+    setwelkeFiets(state,value){
+        state.welkeFiets.Fiets = value.Fiets;
     }
 
 }
@@ -52,6 +64,12 @@ export const getters = {
     },
     Ochtendgetter(state){
         return state.OchtendJaofNee;
+    },
+    Avondgetter(state){
+        return state.AvondJaofNee;
+    },
+    Fietsgetter(state){
+        return state.welkeFiets;
     },
 }
 
