@@ -16,22 +16,24 @@
         </div>
         <div id="registerbar-fix"></div>
         <!-- Register bar end -->
+
+		<form action="https://www.ad.nl/" method="post">
+			<step1 v-show="activeStep === 0"></step1>
+			<step2 v-show="activeStep === 1"></step2>
+			<step3 v-show="activeStep === 2"></step3>
+			<step4 v-show="activeStep === 3"></step4>
+			<step5 v-show="activeStep === 4"></step5>
+			<step6 v-show="activeStep === 5"></step6>
+			<step7 v-show="activeStep === 6"></step7>
+			<step8 v-show="activeStep === 7"></step8>
+
+        	<!-- NEXT BUTTON -->
+			<button  v-show="activeStep <6" id="next" type="button"  class="btn btn-block btn-primary" @click="activeStep++">Verder ></button>
+			<button v-show="activeStep >5 && activeStep <7" id="next" type="submit" class="btn btn-block btn-primary" @click="activeStep++">Verder</button>
 		
-
-		<step1 v-show="activeStep === 0"></step1>
-		<step2 v-show="activeStep === 1"></step2>
-		<step3 v-show="activeStep === 2"></step3>
-		<step4 v-show="activeStep === 3"></step4>
-		<step5 v-show="activeStep === 4"></step5>
-		<step6 v-show="activeStep === 5"></step6>
-		<step7 v-show="activeStep === 6"></step7>
-		<step8 v-show="activeStep === 7"></step8>
-
-        <!-- NEXT BUTTON -->
-		<button  v-show="activeStep <7" id="next" type="button"  class="btn btn-block btn-primary" @click="activeStep++">Verder ></button>
+		</form>
 
 	</div>
-
 </template>
 
 <script>
@@ -45,14 +47,5 @@ export default {
     	  activeStep: 0,
     	}
 	}
-
-	
-
   }
-
-
-
-
-
-
 </script>
