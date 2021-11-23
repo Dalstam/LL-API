@@ -21,7 +21,10 @@ export const state =()=>({
     }, 
     welkeFiets:{
         Fiets: ''
-    }                                                                                                                                                                      
+    }, 
+    updateBericht:{
+        bericht: ''
+    }                                                                                                                                                                     
 })
 
 export const mutations = {  
@@ -47,6 +50,9 @@ export const mutations = {
     },
     setwelkeFiets(state,value){
         state.welkeFiets.Fiets = value.Fiets;
+    },
+    setupdateBericht(state,value) {
+        state.updateBericht.bericht = value.bericht;
     }
 
 }
@@ -71,5 +77,8 @@ export const getters = {
     Fietsgetter(state){
         return state.welkeFiets;
     },
+    berichtgetter(state){
+        return state.updateBericht;
+    }
 }
 
