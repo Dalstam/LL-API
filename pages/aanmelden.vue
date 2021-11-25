@@ -18,7 +18,7 @@
 		<!-- Register bar end -->
 
 
-		<form action="https://hooks.zapier.com/hooks/catch/5974604/bmouat1/" method="post">
+		<form action="" method="post">
 			<step1 v-show="activeStep === 0"></step1>
 			<step2 v-show="activeStep === 1"></step2>
 			<step3 v-show="activeStep === 2"></step3>
@@ -47,6 +47,7 @@ export default {
     	}
 	}
 }
+
 
 
 </script>
