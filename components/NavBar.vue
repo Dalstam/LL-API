@@ -55,16 +55,16 @@
     <div id="slide-trans-layer"></div>
     <div id="slidemenu">
         <ul class="mobile-nav">
-            <li @click="collapse">
+            <li class="mnav">
                  <NuxtLink to="/">Home</NuxtLink>
             </li>
-            <li @click="collapse" >
+            <li class="mnav">
                  <NuxtLink to="/over-tringtring">Over TringTring</NuxtLink>
             </li>
-            <li @click="collapse">
+            <li class="mnav">
                  <NuxtLink to="/leveranciers">Voor Leveranciers</NuxtLink>
             </li>
-            <li @click="collapse">
+            <li class="mnav">
                  <NuxtLink to="/word-tringer">Word Tringer</NuxtLink>
             </li>
         <li>
@@ -96,29 +96,7 @@
 <!-- Main menu end -->
 </div>
 </template>
-<script>
-export default {
-    methods: {
-        collapse(e) {
-            alert("Foo");
-            openNav(e);
-            // // Get scroll position
-            // let currentScrollPos = parseInt(
-            //     Math.abs(parseInt($("main").css("top")) - $(".navbar").height())
-            // );
 
-            // // Smooth klap in
-            // setTimeout(function () {
-            //     $("main").css({ position: "static" });
-
-            //     $("body").css({ overflow: "inherit" });
-
-            //     $("html, body").scrollTop(currentScrollPos);
-            // }, 500);
-        }
-    }
-}
-</script>
 <style scoped>
  .nuxt-link-exact-active {
     font-weight: bolder;
