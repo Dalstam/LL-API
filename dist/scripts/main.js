@@ -152,6 +152,10 @@ $(document).on("ready", function () {
   $(document).on("click", ".hamburger-btn", function () {
     openNav();
   });
+  $(document).on("click", ".mnav", function () {
+    openNav();
+  });
+  
   function openNav(e) {
     $("body").toggleClass("slide-active");
 

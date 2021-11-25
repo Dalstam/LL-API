@@ -130,7 +130,7 @@
 			</ul>
 	
 		<p>
-			<a class="btn btn-primary" href="aanmelden.html">Aanmelden</a>
+			<nuxt-link class="btn btn-primary" to="/aanmelden">Aanmelden</nuxt-link>
 		</p>
 	</div>
 </div>

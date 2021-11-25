@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/algemene-voorwaarden-tringtring-opdrachtgever-boodschappenservice", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/algemene-voorwaarden-tringtring-opdrachtgever-horecabezorgservice", {data:[{}],fetch:{},mutations:[]});
