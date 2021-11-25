@@ -18,7 +18,6 @@
 				<p>Extreem flexibel. Je fietst wanneer jou het uitkomt. Overdag, middag of avond.</p>
 			</li>
 		</ul>
-		
 		<p>
 			<a>
                  <NuxtLink to="/aanmelden" class="btn btn-primary" >Aanmelden</NuxtLink>
