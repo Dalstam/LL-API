@@ -6,7 +6,7 @@
 		<p></p>
 		<ul class="highlights">
 			<li>
-				<p>Je fietst op de mooiste bakfietsen die er zijn</p>
+				<p>Je fietst op de mooiste bakfietsen die er zijn</p> 
 			</li> 
 			<li >
 				<p>Je bent onderdeel van een echt team en geen nummer</p>
