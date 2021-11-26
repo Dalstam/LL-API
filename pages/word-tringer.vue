@@ -56,7 +56,9 @@
 			</div>
 		
 		<p>
-			<a class="btn btn-primary" href="aanmelden.html">Aanmelden</a>
+			<a>
+                 <NuxtLink to="/aanmelden" class="btn btn-primary" >Aanmelden</NuxtLink>
+            </a>
 		</p>
 	</div>
 </div>
@@ -98,7 +100,9 @@
 		</div>
 
 		<p>
-			<a class="btn btn-primary" href="aanmelden.html">Aanmelden</a>
+			<a>
+                 <NuxtLink to="/aanmelden" class="btn btn-primary" >Aanmelden</NuxtLink>
+            </a>
 		</p>
 	</div>
 </div>
@@ -130,7 +134,9 @@
 			</ul>
 	
 		<p>
-			<a class="btn btn-primary" href="aanmelden.html">Aanmelden</a>
+			<a>
+                 <NuxtLink to="/aanmelden" class="btn btn-primary" >Aanmelden</NuxtLink>
+            </a>
 		</p>
 	</div>
 </div>
