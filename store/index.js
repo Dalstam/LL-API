@@ -24,7 +24,8 @@ export const state =()=>({
     }, 
     updateBericht:{
         bericht: ''
-    }                                                                                                                                                                     
+    }  , 
+    checkReq:0,                                                                                                                                                                  
 })
 
 export const mutations = {  
@@ -53,6 +54,9 @@ export const mutations = {
     },
     setupdateBericht(state,value) {
         state.updateBericht.bericht = value.bericht;
+    },
+    setReq(state,value) {
+        state.checkReq = value;
     }
 
 }
@@ -79,6 +83,9 @@ export const getters = {
     },
     berichtgetter(state){
         return state.updateBericht;
+    },
+    requiredgetter(state){
+        return state.checkReq;
     }
 }
 

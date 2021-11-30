@@ -5,14 +5,16 @@
     <div class="pm-step">
       <h1 class="form-title">Meld je aan als Tringer</h1>
       <input
-        v-model="voornaam"
+        v-model="voornaam.value"
         class="form-control form-group input-lg"
         name="voornaam"
         type="text"
         placeholder="Voornaam"
         data-rule-required="true"
-        @change="persInfo()"
+        @blur="persInfo()"
       />
+      <p v-show="!voornaam.ingevuld">verplicht</p>
+
       <input
         v-model="achternaam"
         class="form-control form-group input-lg"
@@ -50,7 +52,13 @@
         maxlength="15"
         @change="persInfo()"
       />
-      <select class="form-control form-group input-lg" name="toestel" required v-model="toestel" @change="persInfo()">
+      <select
+        class="form-control form-group input-lg"
+        name="toestel"
+        required
+        v-model="toestel"
+        @change="persInfo()"
+      >
         <option value="">Type toestel</option>
         <option value="android">Android</option>
         <option value="iphone">iPhone</option>
@@ -63,7 +71,7 @@
 export default {
   data() {
     return {
-      voornaam: '',
+      voornaam: { value: '', ingevuld: true },
       achternaam: '',
       email: '',
       plaats: '',
@@ -73,17 +81,25 @@ export default {
   },
   methods: {
     persInfo() {
+      if (this.voornaam.value === '' && this.voornaam.ingevuld) {
+        this.voornaam.ingevuld = false
+      } else {
+        this.voornaam.ingevuld = true
+      }
+      if (this.voornaam.ingevuld) {
+        this.$store.commit('setReq', 1)
+        this.sumbitPersInfo()
+      }
+    },
+    sumbitPersInfo() {
       this.$store.commit('setpersInfo', {
-        voornaam: this.voornaam,
+        voornaam: this.voornaam.value,
         achternaam: this.achternaam,
         email: this.email,
         plaats: this.plaats,
         telefoon: this.telefoon,
         toestel: this.toestel,
       })
-
-	//   Dit is voorbeeld dat de store werkt!!
-      console.log(this.$store.getters.persgetter);
     },
   },
 }
